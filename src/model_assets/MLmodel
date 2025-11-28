@@ -1,0 +1,50 @@
+artifact_path: file:C:\Users\METRA\OneDrive\Documents\Projects\Telco_project\mlruns/230971707857301146/models/m-3da6ae1ddf364be28a28d7cd506277d7/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.13.3
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.7.2
+is_signature_from_type_hint: false
+mlflow_version: 3.6.0
+model_id: m-3da6ae1ddf364be28a28d7cd506277d7
+model_size_bytes: 4710740
+model_uuid: m-3da6ae1ddf364be28a28d7cd506277d7
+prompts: null
+run_id: dc2d28f841394edea3d72781f8e5f777
+saved_input_example_info:
+  artifact_path: input_example.json
+  pandas_orient: split
+  serving_input_path: serving_input_example.json
+  type: dataframe
+signature:
+  inputs: '[{"type": "long", "name": "Age", "required": true}, {"type": "double",
+    "name": "Gender", "required": true}, {"type": "double", "name": "Country", "required":
+    true}, {"type": "double", "name": "self_employed", "required": true}, {"type":
+    "double", "name": "family_history", "required": true}, {"type": "double", "name":
+    "work_interfere", "required": true}, {"type": "long", "name": "no_employees",
+    "required": true}, {"type": "double", "name": "remote_work", "required": true},
+    {"type": "double", "name": "tech_company", "required": true}, {"type": "double",
+    "name": "benefits", "required": true}, {"type": "double", "name": "care_options",
+    "required": true}, {"type": "double", "name": "wellness_program", "required":
+    true}, {"type": "double", "name": "seek_help", "required": true}, {"type": "double",
+    "name": "anonymity", "required": true}, {"type": "double", "name": "leave", "required":
+    true}, {"type": "double", "name": "mental_health_consequence", "required": true},
+    {"type": "double", "name": "phys_health_consequence", "required": true}, {"type":
+    "double", "name": "coworkers", "required": true}, {"type": "double", "name": "supervisor",
+    "required": true}, {"type": "double", "name": "mental_health_interview", "required":
+    true}, {"type": "double", "name": "phys_health_interview", "required": true},
+    {"type": "double", "name": "mental_vs_physical", "required": true}, {"type": "double",
+    "name": "obs_consequence", "required": true}]'
+  outputs: '[{"type": "tensor", "tensor-spec": {"dtype": "object", "shape": [-1]}}]'
+  params: null
+type_hint_from_example: false
+utc_time_created: '2025-11-28 19:50:52.722909'
