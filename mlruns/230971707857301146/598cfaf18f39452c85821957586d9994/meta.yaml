@@ -1,0 +1,14 @@
+artifact_uri: file:C:\Users\METRA\OneDrive\Documents\Projects\Telco_project\mlruns/230971707857301146/598cfaf18f39452c85821957586d9994/artifacts
+end_time: 1764363895383
+entry_point_name: ''
+experiment_id: '230971707857301146'
+lifecycle_stage: active
+run_id: 598cfaf18f39452c85821957586d9994
+run_name: Treatment_Prediction_Pipeline
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1764363891360
+status: 3
+tags: []
+user_id: Mariam

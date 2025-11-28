@@ -1,0 +1,10 @@
+artifact_location: file:C:\Users\METRA\OneDrive\Documents\Projects\Telco_project\mlruns/230971707857301146/models/m-7c5d9fdc1bae4ba4a6066c012536a164/artifacts
+creation_timestamp: 1764363891842
+experiment_id: '230971707857301146'
+last_updated_timestamp: 1764363895373
+model_id: m-7c5d9fdc1bae4ba4a6066c012536a164
+model_type: null
+name: model
+source_run_id: 19694939bcab474da56550cf256fd252
+status: 2
+status_message: null
