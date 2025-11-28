@@ -146,7 +146,7 @@ def predict(data: PatientData):
         return {
             "prediction": "Yes" if prediction[0] == 1 else "No",
             "confidence": float(probability),
-            "run_id": RUN_ID
+           # "run_id": RUN_ID
         }
 
     except Exception as e:
